@@ -10,6 +10,8 @@ import Avatar from "../../components/Avatar/Avatar"
 import EditProfileForm from './EditProfileForm'
 import ProfileBio from './ProfileBio'
 import './UsersProfile.css'
+// import AvatarUploader from '../../components/AvatarUploader'
+
 
 
 const UserProfile = () => {
@@ -55,6 +57,7 @@ const UserProfile = () => {
                     )
                 }
             </>
+
     </section>
       </div>
     </div>

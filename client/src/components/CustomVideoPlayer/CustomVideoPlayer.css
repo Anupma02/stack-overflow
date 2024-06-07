@@ -1,0 +1,99 @@
+.custom-video-player {
+    position: relative;
+    width: 100%;
+  }
+  
+  video {
+    width: 100%;
+    height: auto;
+    margin-top: 30px;
+  }
+  
+  
+  
+
+/* 
+   .app {
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+  }
+  
+ 
+  
+  .video {
+    width: 60vw;
+    height: auto;
+    margin-top: 50px;
+  }
+  
+
+  
+  .controlsContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100vw;
+    background-color: transparent;
+    margin-top: -50vw;
+    padding: 0 40px;
+    z-index: 20;
+  }
+  
+  .controls {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-top: 18rem;
+    margin: auto;
+    margin-top: 100px;
+  }
+  
+  .controlsIcon {
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    margin-left: 10rem;
+    margin-right: 10rem;
+  }
+  
+  .controlsIcon--small {
+    width: 32px;
+    height: 32px;
+    cursor: pointer;
+    margin-left: 10rem;
+    margin-right: 10rem;
+  }
+  
+
+  
+  .timecontrols {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    position: absolute;
+    bottom: 0.5rem;
+    margin-left: 2vw;
+  }
+   */
+  .time_progressbarContainer {
+    background-color: gray;
+    border-radius: 15px;
+    width: 60vw;
+    height: 5px;
+    z-index: 30;
+    position: relative;
+    margin: 0 20px;
+  }
+/*   
+  .time_progressBar {
+    border-radius: 15px;
+    background-color: indigo;
+    height: 100%;
+  }
+  
+  .controlsTime {
+    color: white;
+  } */

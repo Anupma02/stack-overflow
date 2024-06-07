@@ -3,6 +3,8 @@ import { useLocation ,useNavigate } from 'react-router-dom'
 import { useSelector} from 'react-redux'
 import './HomeMainbar.css'
 import QuestionList from './QuestionList'
+import videoSource from '../../assets/Stack_Overflow_Video.mp4'
+import CustomVideoPlayer from '../../components/CustomVideoPlayer/CustomVideoPlayer';
 
 const HomeMainbar = () => {
 
@@ -99,6 +101,7 @@ const checkAuth = () => {
           <>
             <p>{questionsList.data.length} questions</p>
             <QuestionList questionsList ={questionsList.data} />
+            <CustomVideoPlayer videoSource={videoSource} />
           </>
         }
       </div>

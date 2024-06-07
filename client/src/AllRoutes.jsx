@@ -9,6 +9,7 @@ import DisplayQuestion from './pages/Questions/DisplayQuestion'
 import Tags from "./pages/Tags/Tags"
 import Users from "./pages/Users/Users"
 import UserProfile from './pages/UserProfile/UserProfile'
+import LocationTracker from './components/LocationTracker/LocationTracker';
 
 const   AllRoutes = () => {
   return (
@@ -22,10 +23,11 @@ const   AllRoutes = () => {
         <Route path = '/Tags' Component={Tags} />
         <Route path='/Users' Component={Users}/>
         <Route path='/Users/:id' Component={UserProfile}/>
+        <Route path="/location" Component={LocationTracker}/>
         
         </Routes>
     </div>
-  )
+)
 }
 
-export default AllRoutes
+export default AllRoutes    

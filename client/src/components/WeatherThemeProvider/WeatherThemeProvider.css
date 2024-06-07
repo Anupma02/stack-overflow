@@ -1,0 +1,50 @@
+.app {
+    font-family: Arial, sans-serif;
+  }
+
+.app.light {
+    background-color: #f0f0f0;
+    color: #333;
+  }
+  
+  .app.dark {
+    background-color: #333;
+    color: whitesmoke;
+    mix-blend-mode : difference ;
+  }
+
+  .app.dark .side-nav-links {
+    color : whitesmoke
+  }
+
+  .app.dark .side-nav-links:hover{
+    color : lightblue
+  }
+
+  .app.dark .active{
+    color: white;
+    background-color : #e3c6ad
+  }
+
+  .app.dark .widget h4 ,.app.dark .widget-tags-div p , 
+  .app.dark .right-sidebar-div-1 .right-sidebar-div-2 p , 
+  .app.dark .widget-tags h4 , .app.dark .display-question-container .display-vote-ans p ,
+  .app.dark .display-tags-time {
+    color : black
+  }
+
+  .app.dark .ask-question , .app.dark .auth-section {
+    background-color: #333;
+  }
+
+  .app.dark .ask-form-container label h4 , .app.dark .ask-form-container label p ,
+  .app.dark .auth-container-2 form {
+    color: black;
+  }
+
+  .app.dark .tag p , .app.dark .user-profile-link{
+    color: white;
+  }
+
+  
+  

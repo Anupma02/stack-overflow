@@ -7,9 +7,13 @@ import { BrowserRouter as Router} from 'react-router-dom';
 import { fetchAllQuestions } from './actions/question';
 import AllRoutes from './AllRoutes'
 import { fetchAllUsers } from './actions/users';
+import WeatherThemeProvider from './components/WeatherThemeProvider/WeatherThemeProvider';
+
+
 
 function App() {
 
+  
   const dispatch = useDispatch()
 
   useEffect(() => {
@@ -19,10 +23,13 @@ function App() {
 
   return (
     <div className="App">
-      <Router>
-        <Navbar />
-        <AllRoutes />
-      </Router>
+      
+      <WeatherThemeProvider>
+        <Router>
+          <Navbar />
+          <AllRoutes />
+        </Router>
+        </WeatherThemeProvider>
     </div>
   );
 }

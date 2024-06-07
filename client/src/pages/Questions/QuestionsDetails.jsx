@@ -78,7 +78,7 @@ const QuestionsDetails = () => {
     const dispatch = useDispatch()
     const User = useSelector((state) => (state.currentUserReducer))
     const location = useLocation()
-    const url = "http://localhost:3000"
+    const url = "https://stackoverflow-anupma.netlify.app"
 
 
     const handlePostAns = (e , answerLength ) =>{
